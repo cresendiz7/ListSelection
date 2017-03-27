@@ -1,0 +1,67 @@
+<resources>
+    <!-- List -->
+    <string name="app_nameList">Christian\'s Apps</string>
+
+    <!-- Tip Calculator -->
+    <string name="app_nameTip">Tip Calculator</string>
+    <string name="DollarSign">$</string>
+    <string name="_0_00">$0.00</string>
+    <string name="_0">0%</string>
+    <string name="bill_amount">Bill Amount:</string>
+    <string name="select_tip_amount">Select Tip Amount:</string>
+    <string name="total_balance">Total Balance:</string>
+    <string name="total_balance_per_person">Total Balance per Person:</string>
+    <string name="total_tip">Total Tip:</string>
+    <string name="total_tip_per_person">Total Tip per Person:</string>
+    <string name="_0_00noD">0.00</string>
+    <string name="Plus">+</string>
+    <string name="Minus">-</string>
+    <string name="_1">1</string>
+    <string name="number_of_people">Number of People:</string>
+
+    <!-- BMI -->
+    <string name="app_nameBMI">"BMI Calculator"</string>
+    <string name="body">Body</string>
+    <string name="calculate">Calculate</string>
+    <string name="english">English</string>
+    <string name="height">Height</string>
+    <string name="ftin">FT + IN</string>
+    <string name="index">Index</string>
+    <string name="lb">LB</string>
+    <string name="kg">KG</string>
+    <string name="cm">CM</string>
+    <string name="mass">Mass</string>
+    <string name="metric">Metric</string>
+    <string name="weight">Weight</string>
+    <string name="_00_00">00.00</string>
+    <string name="b_m_i">B M I</string>
+    <string name="normal">Normal</string>
+    <string name="bmi_picture">BMI Picture</string>
+    <string name="bmi_image">BMI Image</string>
+    <string name="_18_5_24_9">18.5 – 24.9</string>
+    <string name="_25_29_9">25 – 29.9</string>
+    <string name="_18_5"><![CDATA[<18.5]]></string>
+    <string name="_30"><![CDATA[>30]]></string>
+    <string name="obese">Obese</string>
+    <string name="overweight">Overweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="b">B</string>
+    <string name="m">M</string>
+    <string name="i">I</string>
+    <string name="in">IN</string>
+    <string name="ft">FT</string>
+    <string name="you_are">You are:</string>
+
+    <!-- Guessing Game -->
+    <string name="app_nameGuess">Guess The Number</string>
+    <string name="Number">#</string>
+    <string name="guess_a_number_between_1_and_10">Guess a number between 1 and 10:</string>
+    <string name="guess">Guess</string>
+    <string name="please_enter_a_number_1_10">Please enter a number 1 -10</string>
+    <string name="try_again">Try Again</string>
+    <string name="arrows">Arrows</string>
+    <string name="correct">Correct!</string>
+    <string name="higher">Higher!</string>
+    <string name="lower">Lower!</string>
+
+</resources>

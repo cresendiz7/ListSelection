@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crese.listselection">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_nameList"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivityList"
+            android:theme="@style/AppThemeList"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityGuess"
+            android:parentActivityName=".MainActivityList"
+            android:label="@string/app_nameGuess"
+            android:theme="@style/AppThemeGuess"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityTip"
+            android:parentActivityName=".MainActivityList"
+            android:label="@string/app_nameTip"
+            android:theme="@style/AppThemeTip"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityBMI"
+            android:parentActivityName=".MainActivityList"
+            android:label="@string/app_nameBMI"
+            android:theme="@style/AppThemeBMI"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ActivityBMIResult"
+            android:parentActivityName=".ActivityBMI"
+            android:theme="@style/AppThemeNoActionBarBMI"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

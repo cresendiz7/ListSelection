@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmiresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.crese.listselection.ActivityBMIResult">
+
+    <TextView
+        android:text="@string/b_m_i"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBMILabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textViewBMIValue"
+        android:textSize="110sp"
+        android:layout_below="@+id/textViewBMILabel"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGreen"
+        android:text="@string/_00_00"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:text="@string/normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewResult"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorGreen" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bminormal"
+        android:id="@+id/imageViewResult"
+        android:layout_below="@+id/textViewBMIValue"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/textView3"
+        android:contentDescription="@string/bmi_image" />
+
+    <TextView
+        android:text="@string/you_are"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/textViewResult"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

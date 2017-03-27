@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeList" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@color/colorYellow</item>
+    </style>
+
+    <style name="AppThemeNoActionBarBMI" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryBMI</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+        <item name="colorAccent">@color/colorAccentBMI</item>
+    </style>
+
+    <style name="AppThemeBMI" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimaryBMI</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkBMI</item>
+        <item name="colorAccent">@color/colorAccentBMI</item>
+    </style>
+
+    <style name="AppThemeTip" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimaryTip</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkTip</item>
+        <item name="colorAccent">@color/colorAccentTip</item>
+    </style>
+
+    <style name="AppThemeGuess" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimaryGuess</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkGuess</item>
+        <item name="colorAccent">@color/colorAccentGuess</item>
+    </style>
+</resources>

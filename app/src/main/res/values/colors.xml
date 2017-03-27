@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- List Colors -->
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1c8325</color>
+    <color name="colorAccent">#d4df33</color>
+
+    <!-- BMI -->
+    <color name="colorPrimaryBMI">#da120b</color>
+    <color name="colorPrimaryDarkBMI">#901414</color>
+    <color name="colorAccentBMI">#f7ff00</color>
+    <color name="colorLightBlue">#00FFE8</color>
+    <color name="colorGreen">#16d02f</color>
+    <color name="colorDarkOrange">#ff5100</color>
+    <color name="colorYellow">#dae108</color>
+    <color name="colorGray">#FF4E4E4E</color>
+
+    <!-- Tip Calculator -->
+    <color name="colorPrimaryTip">#29bc36</color>
+    <color name="colorPrimaryDarkTip">#1c8325</color>
+    <color name="colorAccentTip">#d4df33</color>
+
+    <!-- Guessing Game -->
+    <color name="colorPrimaryGuess">#ffc107</color>
+    <color name="colorPrimaryDarkGuess">#ffa000</color>
+    <color name="colorAccentGuess">#ffcc0000</color>
+
+
+</resources>
